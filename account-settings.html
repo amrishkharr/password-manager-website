@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Account Settings</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <h2>Account Settings</h2>
+
+  <form id="profileForm">
+    <label>Full Name:</label>
+    <input type="text" id="fullName" required /><br />
+
+    <label>Mobile Number:</label>
+    <input type="text" id="mobile" /><br />
+
+    <label>Gender:</label>
+    <select id="gender">
+      <option value="">Select</option>
+      <option>Male</option>
+      <option>Female</option>
+      <option>Other</option>
+    </select><br />
+
+    <button type="submit">Update Profile</button>
+  </form>
+
+  <p id="status"></p>
+
+  <script type="module" src="js/account-settings.js"></script>
+</body>
+</html>
